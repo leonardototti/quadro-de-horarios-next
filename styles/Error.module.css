@@ -1,0 +1,61 @@
+.errormain {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.errorcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.errortitle {
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.errorsubtitle {
+    font-family: Roboto,sans-serif;
+}
+
+.errorbutton {
+    outline: none;
+    border: 0;
+    background-color: #f1641f;
+    border-radius: 10px;
+    padding: 12px 40px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+    z-index: 2;
+    transition: .3s;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.errorbutton:active {
+    transform: scale(0.98);
+    filter: brightness(0.9);
+}
+
+.errorimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    z-index: -1;
+    opacity: .04;
+    width: 25vw;
+}
+
+@media(max-width: 576px) {
+    .errorimg {
+        width: 90%;
+    }
+}
