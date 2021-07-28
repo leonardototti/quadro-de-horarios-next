@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import Container from 'react-bootstrap/Container';
+import styled from 'styled-components';
 
 import * as styles from '../styles/pages/Home'
 
@@ -25,9 +26,9 @@ export default function Home() {
       <span className="background-text"><span>Escolha</span> <span>seu</span> <span>Curso</span></span>
       <main>
         <Container>
-          <section>
+          <styles.Section>
             <styles.Logo src="/logo-unifil.png" width="150px" height="auto" alt="Logo Unifil"></styles.Logo>
-            <div className="content js-tilt">
+            <styles.Content>
               <styles.Title>Escolha seu curso</styles.Title>
               <styles.SubTitle>Clique em um dos botões para acessar o respectivo quadro de horários.</styles.SubTitle>
 
@@ -40,9 +41,9 @@ export default function Home() {
                 </Link>
               </styles.ButtonsContainer>
               <styles.CourseIcon width="auto" height="65%" src="/icon.png" alt="Unifil"></styles.CourseIcon>
-            </div>
-            <p className="copyright">Desenvolvido por <a target="_blank" rel="noreferrer noopener" href="https://github.com/leonardototti">Leonardo Totti</a></p>
-          </section>
+            </styles.Content>
+            <styled.Copyright>Desenvolvido por <a target="_blank" rel="noreferrer noopener" href="https://github.com/leonardototti">Leonardo Totti</a></styled.Copyright>
+          </styles.Section>
         </Container>
       </main>
     </>

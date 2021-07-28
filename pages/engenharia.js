@@ -41,9 +41,9 @@ export default function Engenharia() {
             </Link>
             <main>
                 <Container>
-                    <section>
+                    <styles.Section>
                         <styles.Logo src="/logo-unifil.png" width="150px" height="auto" alt="Logo Unifil"></styles.Logo>
-                        <div className="content">
+                        <styles.Content>
                             <styles.Title>Horários de <span>Engenharia</span></styles.Title>
                             <styles.SubTitle>Clique em algum horário para acessar o respectivo link da aula.</styles.SubTitle>
                             <styles.TableContainer>
@@ -90,9 +90,9 @@ export default function Engenharia() {
                                 </ul>
                                 <div className="course-title">Engenharia de Software</div>
                             </styles.SubtitlesContainer>
-                        </div>
-                        <p className="copyright">Desenvolvido por <a target="_blank" rel="noreferrer noopener" href="https://github.com/leonardototti">Leonardo Totti</a></p>
-                    </section>
+                        </styles.Content>
+                        <styles.Copyright>Desenvolvido por <a target="_blank" rel="noreferrer noopener" href="https://github.com/leonardototti">Leonardo Totti</a></styles.Copyright>
+                    </styles.Section>
                 </Container>
             </main>
         </>
