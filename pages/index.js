@@ -42,7 +42,7 @@ export default function Home() {
               </styles.ButtonsContainer>
               <styles.CourseIcon width="auto" height="65%" src="/icon.png" alt="Unifil"></styles.CourseIcon>
             </styles.Content>
-            <styled.Copyright>Desenvolvido por <a target="_blank" rel="noreferrer noopener" href="https://github.com/leonardototti">Leonardo Totti</a></styled.Copyright>
+            <styles.Copyright>Desenvolvido por <a target="_blank" rel="noreferrer noopener" href="https://github.com/leonardototti">Leonardo Totti</a></styles.Copyright>
           </styles.Section>
         </Container>
       </main>
