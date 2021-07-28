@@ -130,7 +130,7 @@ export const TableContainer = styled.div`
             }
 
             td a {
-                color: white!important;
+                color: white;
             }
         }
 
@@ -146,6 +146,15 @@ export const Td = styled.td`
     vertical-align: middle!important;
     background-color: #f7793d;
 
+    .classroom-link {
+        color: #f0f0ff;
+        margin: 0 5px;
+        padding: 2px 8px;
+        border-radius: 6px;
+        background-color: #f7a984;
+        font-size: 12px;
+    }
+
     ${props =>
     props.hour &&
     css`
@@ -157,12 +166,20 @@ export const Td = styled.td`
     props.green &&
     css`
         background-color: #12a038;
+
+        .classroom-link {
+            background-color: #50bb6d;
+        }
     `};
 
     ${props =>
     props.gray &&
     css`
         background-color: #706F6F;
+
+        .classroom-link {
+            background-color: #928f8f;
+        }
     `};
 `;
 

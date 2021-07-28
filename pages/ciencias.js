@@ -61,11 +61,41 @@ export default function Ciencias() {
                                     <tbody>
                                         <tr>
                                             <styles.Td hour>19h00 - 20h30</styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Matemática Discreta<br/>Tania<br/>Sala 121 (jq65hfu)</a></styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Arq. e Org. de Computadores<br/>Kleber<br/>Lab 3 (nh5wvkg)</a></styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Ling. de Prog. Orientada a Obj.<br/>Edson<br/>Lab 3 (ske6jjv)</a></styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Alg. e Estruturas de Dados<br/>Mario<br/>Lab 3 (ebz6llr)</a></styles.Td>
-                                            <styles.Td gray><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Projeto Inter. II<br/>Tania<br/>(qljgz2c)</a></styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Matemática Discreta<br/>
+                                                    Tania
+                                                </a><br/>
+                                                Sala 121
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjA0NzkzMzUy?cjc=jq65hfu" target="_blank" rel="noopener noreferrer">(jq65hfu)</a>
+                                            </styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Arq. e Org. de Computadores<br/>Kleber
+                                                </a><br/>
+                                                Lab 3
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzcyNjQwODIxNDgy?cjc=nh5wvkg" target="_blank" rel="noopener noreferrer">(nh5wvkg)</a>
+                                            </styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Ling. de Prog. Orientada a Obj.<br/>Edson
+                                                </a><br/>
+                                                Lab 3
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjQ0MTE3NTg4?cjc=ske6jjv" target="_blank" rel="noopener noreferrer">(ske6jjv)</a>
+                                            </styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Alg. e Estruturas de Dados<br/>Mario
+                                                </a><br/>
+                                                Lab 3
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzY3Nzc4OTUxNDY2?cjc=ebz6llr" target="_blank" rel="noopener noreferrer">(ebz6llr)</a>
+                                            </styles.Td>
+                                            <styles.Td gray>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Projeto Inter. II<br/>Tania
+                                                </a><br/>
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjExODM3MDE1?cjc=qljgz2c" target="_blank" rel="noopener noreferrer">(qljgz2c)</a>
+                                            </styles.Td>
                                         </tr>
                                         <tr style={{backgroundColor: 'rgba(0,0,0,.03)'}}>
                                             <styles.Td hour>20h30 - 20h45</styles.Td>
@@ -73,10 +103,35 @@ export default function Ciencias() {
                                         </tr>
                                         <tr>
                                             <styles.Td hour>20h45 - 22h15</styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Arq. e Org. de Computadores<br/>Kleber<br/>Lab 3 (nh5wvkg)</a></styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Alg. e Estruturas de Dados<br/>Mario<br/>Lab 3 (ebz6llr)</a></styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Matemática Discreta<br/>Tania<br/>Sala 121 (jq65hfu)</a></styles.Td>
-                                            <styles.Td><a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Ling. de Prog. Orientada a Obj.<br/>Edson<br/>Lab 3 (ske6jjv)</a></styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Arq. e Org. de Computadores<br/>Kleber
+                                                </a><br/>
+                                                Lab 3
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzcyNjQwODIxNDgy?cjc=nh5wvkg" target="_blank" rel="noopener noreferrer">(nh5wvkg)</a>
+                                            </styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Alg. e Estruturas de Dados<br/>Mario
+                                                </a><br/>
+                                                Lab 3
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzY3Nzc4OTUxNDY2?cjc=ebz6llr" target="_blank" rel="noopener noreferrer">(ebz6llr)</a>
+                                            </styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Matemática Discreta<br/>
+                                                    Tania
+                                                </a><br/>
+                                                Sala 121
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjA0NzkzMzUy?cjc=jq65hfu" target="_blank" rel="noopener noreferrer">(jq65hfu)</a>
+                                            </styles.Td>
+                                            <styles.Td>
+                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                    Ling. de Prog. Orientada a Obj.<br/>Edson
+                                                </a><br/>
+                                                Lab 3
+                                                <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjQ0MTE3NTg4?cjc=ske6jjv" target="_blank" rel="noopener noreferrer">(ske6jjv)</a>
+                                            </styles.Td>
                                             <styles.Td></styles.Td>
                                         </tr>
                                     </tbody>
