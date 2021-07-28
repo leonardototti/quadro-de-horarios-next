@@ -35,7 +35,7 @@ body .background-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     z-index: -1;
-    opacity: .08;
+    opacity: .1;
     text-align: center;
     letter-spacing: 5px;
     user-select: none;
@@ -70,7 +70,7 @@ body .background-text {
     }
 }   
 
-/* Estilos da seção que engloba tudo (logo, caixa de conteúdo e o rodapé) */
+/* Estilos da seção que engloba tudo (caixa de conteúdo e o rodapé) */
 section {
     padding: 30px;
     width: 100%;
@@ -82,7 +82,6 @@ section {
     flex-direction: column;
 }
 
-
 @media(max-width: 1200px) {
     section {
         justify-content: unset!important;
@@ -93,12 +92,6 @@ section {
     section {
         padding: 0!important;
     }
-}
-
-/* Estilos da logo */
-section .logo {
-    margin: 20px;
-    user-select: none;
 }
 
 /* Estilos da caixa principal de conteúdo (caixa laranja) */
@@ -117,9 +110,6 @@ section .logo {
     .content {
         padding: 30px!important;
     }
-    h1.title {
-        font-size: 42px!important;
-    }
     .background-text {
         display: none!important;
     }
@@ -131,25 +121,6 @@ section .logo {
         justify-content: center!important;
     }
 }
-
-/* Estilo do título */
-h1.title {
-    font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    width: 100%;
-    user-select: none;
-    z-index: 2;
-}
-
-/* Estilo do subtítulo */
-p.subtitle {
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    user-select: none;
-    z-index: 2;
-}
-
 
 /* Estilos do texto do rodapé */
 .copyright {
@@ -181,13 +152,4 @@ p.subtitle {
     .container {
         max-width: 960px!important;
     }
-}
-
-.buttons-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 50px 0px;
-    z-index: 2;
-    gap: 15px;
 }
