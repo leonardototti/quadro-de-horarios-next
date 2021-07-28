@@ -62,7 +62,7 @@ export default function Ciencias() {
                                         <tr>
                                             <styles.Td hour>19h00 - 20h30</styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/byp-mbdf-ucn" target="_blank" rel="noopener noreferrer">
                                                     Matemática Discreta<br/>
                                                     Tania
                                                 </a><br/>
