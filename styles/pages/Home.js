@@ -20,15 +20,14 @@ export const Section = styled.section`
 `;
 
 export const Content = styled.div`
-    .content {
-        width: 100%;
-        background-image: linear-gradient(to right top, #f1641f, #ef5f19, #ed5912, #eb5309, #e94d00);
-        padding: 40px;
-        border-radius: 15px;
-        color: white;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
-        position: relative;
-    }
+    width: 100%;
+    background-image: linear-gradient(to right top, #f1641f, #ef5f19, #ed5912, #eb5309, #e94d00);
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
+    position: relative;
+
 
     @media(max-width: 576px) {
         padding: 30px!important;
