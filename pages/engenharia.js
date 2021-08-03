@@ -70,7 +70,7 @@ export default function Engenharia() {
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjA0NzkzMzUy?cjc=jq65hfu" target="_blank" rel="noopener noreferrer">(jq65hfu)</a>
                                             </styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/vez-vcrt-kiy" target="_blank" rel="noopener noreferrer">
                                                     Arq. e Org. de Computadores<br/>Kleber
                                                 </a><br/>
                                                 Lab 3
@@ -104,7 +104,7 @@ export default function Engenharia() {
                                         <tr>
                                             <styles.Td hour>20h45 - 22h15</styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/fry-bfxo-zdo" target="_blank" rel="noopener noreferrer">
                                                     Arq. e Org. de Computadores<br/>Kleber
                                                 </a><br/>
                                                 Lab 3
