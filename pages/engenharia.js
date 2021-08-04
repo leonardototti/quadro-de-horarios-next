@@ -77,14 +77,14 @@ export default function Engenharia() {
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzcyNjQwODIxNDgy?cjc=nh5wvkg" target="_blank" rel="noopener noreferrer">(nh5wvkg)</a>
                                             </styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/vdm-vhvb-qtv" target="_blank" rel="noopener noreferrer">
                                                     Ling. de Prog. Orientada a Obj.<br/>Edson
                                                 </a><br/>
                                                 Lab 3
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjQ0MTE3NTg4?cjc=ske6jjv" target="_blank" rel="noopener noreferrer">(ske6jjv)</a>
                                             </styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/zjv-iunf-sce" target="_blank" rel="noopener noreferrer">
                                                     Alg. e Estruturas de Dados<br/>Mario
                                                 </a><br/>
                                                 Lab 3
@@ -111,14 +111,14 @@ export default function Engenharia() {
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzcyNjQwODIxNDgy?cjc=nh5wvkg" target="_blank" rel="noopener noreferrer">(nh5wvkg)</a>
                                             </styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/zjv-iunf-sce" target="_blank" rel="noopener noreferrer">
                                                     Alg. e Estruturas de Dados<br/>Mario
                                                 </a><br/>
                                                 Lab 3
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzY3Nzc4OTUxNDY2?cjc=ebz6llr" target="_blank" rel="noopener noreferrer">(ebz6llr)</a>
                                             </styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/byp-mbdf-ucn/" target="_blank" rel="noopener noreferrer">
                                                     Matemática Discreta<br/>
                                                     Tania
                                                 </a><br/>
@@ -126,7 +126,7 @@ export default function Engenharia() {
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjA0NzkzMzUy?cjc=jq65hfu" target="_blank" rel="noopener noreferrer">(jq65hfu)</a>
                                             </styles.Td>
                                             <styles.Td>
-                                                <a href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://meet.google.com/dxx-cfeq-pjs" target="_blank" rel="noopener noreferrer">
                                                     Ling. de Prog. Orientada a Obj.<br/>Edson
                                                 </a><br/>
                                                 Lab 3
