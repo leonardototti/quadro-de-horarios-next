@@ -94,3 +94,16 @@ body .background-text {
         max-width: 960px!important;
     }
 }
+
+#nprogress .bar {
+    background: #f1641f!important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #f1641f, 0 0 5px #f1641f!important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #f1641f!important;
+    border-left-color: #f1641f!important;
+}
