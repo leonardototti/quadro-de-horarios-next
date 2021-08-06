@@ -120,7 +120,7 @@ export default function Engenharia() {
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzY3Nzc4OTUxNDY2?cjc=ebz6llr" target="_blank" rel="noopener noreferrer">(ebz6llr)</a>
                                             </styles.Td>
                                             <styles.Td gray>
-                                                <a href={`https://meet.google.com/${'?authuser=' + emailPos}`} target="_blank" rel="noopener noreferrer">
+                                                <a href={`https://meet.google.com/fzv-cncm-gem${'?authuser=' + emailPos}`} target="_blank" rel="noopener noreferrer">
                                                     Projeto Inter. II<br/>Tania
                                                 </a><br/>
                                                 <a className="classroom-link" href="https://classroom.google.com/c/MzcwNjExODM3MDE1?cjc=qljgz2c" target="_blank" rel="noopener noreferrer">(qljgz2c)</a>
