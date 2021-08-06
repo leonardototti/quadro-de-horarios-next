@@ -75,11 +75,12 @@ export const ButtonCourse = styled.button`
     border: 1px solid white;
     background-color: white;
     border-radius: 6px;
-    padding: 12px 30px;
+    padding: 12px 30px!important;
     color: #f39200;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
     z-index: 2;
     transition: .1s;
+    width: unset!important;
 
     ${props =>
     props.outline &&

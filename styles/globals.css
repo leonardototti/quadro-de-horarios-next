@@ -5,11 +5,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 *:focus {
     outline: 0 !important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+a:hover {
+    text-decoration: underline!important;
 }
 
 body {
@@ -106,4 +113,23 @@ body .background-text {
 #nprogress .spinner-icon {
     border-top-color: #f1641f!important;
     border-left-color: #f1641f!important;
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px!important;
+    }
+}
+
+.offcanvas-title {
+    font-weight: bold!important;
+}
+
+.form-select:focus {
+    border-color: #f9b28f!important;
+    box-shadow: 0 0 0 0.25rem rgb(241 100 31 / 25%)!important;
+}
+
+.Toastify__progress-bar--default {
+    background: #f1641f!important;
 }

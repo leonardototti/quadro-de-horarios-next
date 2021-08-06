@@ -33,10 +33,22 @@ export const Content = styled.div`
     }
 `;
 
-export const BackIcon = styled.div`
+export const IconList = styled.ul`
     position: absolute;
-    top: 70px;
+    top: 30px;
     right: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+
+    @media(max-width: 768px) {
+        top: 30px;
+        right: 20px;
+    }
+`;
+
+export const Icon = styled.div`
     background-color: #f1641f;
     width: 50px;
     height: 50px;
@@ -65,8 +77,15 @@ export const BackIcon = styled.div`
     img {
         height: 25px;
         max-height: 25px;
-        margin-right: 3px;
     }
+
+    ${props =>
+    props.back &&
+    css`
+        img {
+            margin-right: 3px;
+        }
+    `};
 `;
 
 export const Logo = styled.img`
@@ -144,14 +163,14 @@ export const TableContainer = styled.div`
 
 export const Td = styled.td`
     vertical-align: middle!important;
-    background-color: #f7793d;
+    background-color: #f7793d!important;
 
     .classroom-link {
         color: #f0f0ff;
         margin: 0 5px;
         padding: 2px 8px;
         border-radius: 6px;
-        background-color: #f7a984;
+        background-color: #f7a984!important;
         font-size: 12px;
     }
 
@@ -165,20 +184,20 @@ export const Td = styled.td`
     ${props =>
     props.green &&
     css`
-        background-color: #12a038;
+        background-color: #12a038!important;
 
         .classroom-link {
-            background-color: #50bb6d;
+            background-color: #50bb6d!important;
         }
     `};
 
     ${props =>
     props.gray &&
     css`
-        background-color: #706F6F;
+        background-color: #706F6F!important;
 
         .classroom-link {
-            background-color: #928f8f;
+            background-color: #928f8f!important;
         }
     `};
 `;
@@ -196,6 +215,7 @@ export const SubtitlesContainer = styled.div`
         margin-bottom: 0!important;
         column-gap: 15px;
         flex-wrap: wrap;
+        padding-left: 0!important;
 
         li {
             list-style: none;
@@ -245,4 +265,39 @@ export const Copyright = styled.p`
             text-decoration: none;
         }
     }
+`;
+
+export const ConfigButton = styled.button`
+    outline: none;
+    border: 1px solid #f1641f;
+    border-radius: 6px;
+    padding: 12px 30px;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+    z-index: 2;
+    transition: all 0.1s ease 0s;
+    margin-bottom: 15px;
+    background: #f1641f;
+    color: white;
+    margin-top: 20px;
+
+    img {
+        max-width: 20px;
+        max-height: 20px;
+        margin-left: 3px;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+
+    ${props =>
+    props.cancel &&
+    css`
+        background-color: transparent;
+        border: 0;
+        color: #f1641f;
+        box-shadow: unset;
+        margin-top: 0px;
+    `};
 `;
