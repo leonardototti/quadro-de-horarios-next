@@ -71,7 +71,7 @@ export default function Ciencias() {
                     <styles.Section>
                         <styles.Logo src="/logo-unifil.png" width="150px" height="auto" alt="Logo Unifil"></styles.Logo>
                         <styles.Content>
-                            <styles.Title>Horários de <span>Engenharia</span></styles.Title>
+                            <styles.Title>Horários de <span>Ciências</span></styles.Title>
                             <styles.SubTitle>Clique em algum horário para acessar o respectivo link da aula.</styles.SubTitle>
                             <styles.TableContainer>
                                 <table className="table table-borderless">
@@ -170,7 +170,7 @@ export default function Ciencias() {
                                     <styles.SubtitlesLi green>Aulas ministradas virtualmente</styles.SubtitlesLi>
                                     <styles.SubtitlesLi gray>Aulas agendadas previamente</styles.SubtitlesLi>
                                 </ul>
-                                <div className="course-title">Engenharia de Software</div>
+                                <div className="course-title">Ciências da Computação</div>
                             </styles.SubtitlesContainer>
                         </styles.Content>
                         <styles.Copyright>Desenvolvido por <a target="_blank" rel="noreferrer noopener" href="https://github.com/leonardototti">Leonardo Totti</a></styles.Copyright>
