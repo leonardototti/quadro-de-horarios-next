@@ -301,3 +301,18 @@ export const ConfigButton = styled.button`
         margin-top: 0px;
     `};
 `;
+
+export const NewsModalContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+    h4 {
+        margin-bottom: 15px!important;
+        margin-top: 10px;
+        font-weight: bold;
+        width: 100%;
+    }
+`;

@@ -6,13 +6,15 @@ import { useEffect, useState } from 'react'
 import ls from 'local-storage'
 import { ToastContainer, toast } from 'react-toastify';
 
-import { Container, Offcanvas, Form } from 'react-bootstrap'
+import { Container, Offcanvas, Form, Modal } from 'react-bootstrap'
 
 import * as styles from '../styles/pages/Timesheet'
+import styled from 'styled-components'
 
 export default function Engenharia() {
     
-    const [show, setShow] = useState(false);
+    const [showOffcanvas, setShowOffcanvas] = useState(false);
+    const [showNewsModal, setShowNewsModal] = useState(true);
     const [emailPos, setEmailPos] = useState(0);
     
     useEffect(() => {
@@ -23,6 +25,7 @@ export default function Engenharia() {
         });
 
         setEmailPos(getEmail());
+        setShowNewsModal(!getNewsModalViewed());
     }, []);
     
     return (
@@ -51,7 +54,7 @@ export default function Engenharia() {
                     </Link>
                 </li>
                 <li>
-                    <styles.Icon config onClick={() => setShow(true)}>
+                    <styles.Icon config onClick={() => setShowOffcanvas(true)}>
                         <img src="/config.svg" alt="Configurações"/>
                     </styles.Icon>
                 </li>
@@ -67,7 +70,8 @@ export default function Engenharia() {
                 draggable
                 pauseOnHover={false}
             />
-            <OffCanvasConfiguration show={show} onHide={() => { setShow(false); setEmailPos(getEmail()); }} placement='end' />
+            <OffCanvasConfiguration show={showOffcanvas} onHide={() => { setShowOffcanvas(false); setEmailPos(getEmail()); }} placement='end' />
+            <NewsModal show={showNewsModal} onHide={() => { setShowNewsModal(false); setNewsModalViewed(); }}/>
             <main>
                 <Container>
                     <styles.Section>
@@ -222,6 +226,30 @@ function OffCanvasConfiguration(props) {
     );
 }
 
+function NewsModal(props) {
+    return (
+      <Modal
+        {...props}
+        size="md"
+        backdrop="static"
+        keyboard={false}
+        aria-labelledby="news-modal"
+        centered
+      >
+        <Modal.Body>
+            <styles.NewsModalContainer>
+            <h4>Configurações de email</h4>
+            <p>
+                Agora você pode definir qual o seu email da faculdade para entrar direto sem precisar alterar.
+                Clique no ícone da engrenagem para configurar.
+            </p>
+            <styles.ConfigButton type="button" onClick={props.onHide}>Entendi</styles.ConfigButton>
+            </styles.NewsModalContainer>
+        </Modal.Body>
+      </Modal>
+    );
+}
+
 function setEmail(emailPos) {
     ls.set("email", emailPos)
 }
@@ -231,5 +259,17 @@ function getEmail() {
         return ls.get("email")
     } else {
         return ""
+    }
+}
+
+function setNewsModalViewed() {
+    ls.set("newsmodalviewed", true)
+}
+
+function getNewsModalViewed() {
+    if(ls.get("newsmodalviewed")) {
+        return ls.get("newsmodalviewed")
+    } else {
+        return false
     }
 }
