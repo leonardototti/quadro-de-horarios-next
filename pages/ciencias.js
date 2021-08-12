@@ -158,7 +158,7 @@ export default function Ciencias() {
                                                 <a className="classroom-link" href={`https://classroom.google.com${emailPos ? '/u/' + emailPos : ''}/c/MzcwNjA0NzkzMzUy?cjc=jq65hfu`} target="_blank" rel="noopener noreferrer">(jq65hfu)</a>
                                             </styles.Td>
                                             <styles.Td>
-                                                <a href={`https://meet.google.com/dxx-cfeq-pjs${emailPos ? '?authuser=' + emailPos : ''}`} target="_blank" rel="noopener noreferrer">
+                                                <a href={`https://meet.google.com/wij-dpsy-sbt${emailPos ? '?authuser=' + emailPos : ''}`} target="_blank" rel="noopener noreferrer">
                                                     Ling. de Prog. Orientada a Obj.<br/>Edson
                                                 </a><br/>
                                                 Lab 3
